@@ -1,4 +1,4 @@
-# Hand Safety Detection Monitor
+# Hand Safety Monitor
 
 Simple real-time hand safety demo using OpenCV to detect a fingertip and warn when it approaches a virtual object.
 
