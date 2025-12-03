@@ -1,4 +1,4 @@
-# Hand Safety Monitor — Streamlit Deployment
+# Hand Safety Detection Monitor
 
 This repository contains a Streamlit app to run the Hand Safety Monitor using your webcam.
 
