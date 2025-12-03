@@ -130,7 +130,7 @@ class HandSafetyMonitor:
                         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
 
             # Display
-            cv2.imshow("Industrial Safety Prototype", frame)
+            cv2.imshow("Hand Safety Monitor", frame)
 
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
