@@ -49,13 +49,23 @@ Troubleshooting
 - No camera feed: ensure camera permissions are granted and no other program is using the camera.
 - Low FPS: try reducing frame resolution or closing other apps.
 
+## Screenshots
+
+Below are example frames captured from the demo showing the three safety states. The images are stored in `assets/`.
+
+- **State: DANGER** — fingertip is inside the danger radius. The overlay turns red and shows "DANGER".
+
+![Danger state](assets/danger.png)
+
+- **State: WARNING** — fingertip is approaching the object; warning visuals (orange) are shown.
+
+![Warning state](assets/warning.png)
+
+- **State: SAFE** — fingertip is outside the warning radius; visuals are green.
+
+![Safe state](assets/safe.png)
+
 Possible improvements
 - Use a more robust hand detector (MediaPipe Hands) for fingertip/keypoint accuracy.
 - Replace fixed virtual object with dynamic UI or multiple objects.
-
-
-If you want, I can also:
-- Add a `requirements.txt` file.
 - Swap the hard-coded HSV ranges for a small config file and auto-load calibration values.
-- Integrate MediaPipe for better fingertip detection.
-
